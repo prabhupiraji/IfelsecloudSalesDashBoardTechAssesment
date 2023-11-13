@@ -1,3 +1,6 @@
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](C:\Users\prabh\Pictures\Screenshots\Screenshot dashboard1.png)
+
+
 # Salesdashboardproject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
