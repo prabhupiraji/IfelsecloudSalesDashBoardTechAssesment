@@ -1,0 +1,51 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: whitesmoke;
+  }
+  
+  .user {
+    border-bottom: 1px solid #ccc; /* Optional: add a border between rows */
+  }
+  
+  // td {
+  //   padding: 10px;
+  //   border: 1px solid #ccc; /* Optional: add a border around cells */
+  // }
+  
+  .user-image {
+    width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        background-color: rgb(10, 123, 209);
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    /* Adjust the width of the user image cell */
+    /* Add other styling for user image as needed */
+  }
+  
+  .percentage-bar {
+    /* Add styling for the percentage bar cell */
+    width: 500px;
+    height: 3px;
+    // background-color: #ccc;
+    border-radius: 3px;
+    // position: relative;
+  }
+  
+  .fill {
+    background-color: #4caf50; /* Optional: add a background color for the fill */
+    color: #fff; /* Optional: add text color for the fill */
+    text-align: center;
+  }
+  
+  button {
+    /* Add styling
+    te for the "more" button */
+    text-align: center;
+    align-items: center;
+  }

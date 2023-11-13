@@ -1,0 +1,46 @@
+<h6>Recent Orders</h6>
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th>
+                #
+            </th>
+           
+            <th>
+                Customer
+            </th>
+            <th>
+                Products
+            </th>
+            <th>
+                deliveryDate
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+               TrackingNo#
+            </th>
+            <th>
+                Shipping
+            </th>
+           
+        </tr>
+    </thead> 
+     
+   
+      <tbody *ngFor="let order of recentorders">
+        <tr>
+        <td>{{ order.id }}</td>
+        <td>{{ order.name }}</td>
+        <td>{{ order.product }}</td>
+        <td>{{ order.delivery_date }}</td>
+        <td>{{ order.status }}</td>
+        <td>{{ order.tracking_no }}</td>
+        <td>{{ order.shipping }}</td>
+   
+    </tr>
+      </tbody>
+     
+       
+     </table>

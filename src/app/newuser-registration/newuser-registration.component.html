@@ -1,0 +1,17 @@
+    <h6>NewUser Registrations</h6>
+<table class = "table table-striped">
+
+<tbody *ngFor="let user of new_users" class="user">
+    <tr>
+        <td class="user-image">
+            <img src="assets/Safeimagekit-resized-img (5).png" alt="">
+        </td>
+        <td class="user-name">{{user.name}}</td>
+        <td class="percentage-bar">
+            <div class="fill" [style.width.%]="user.progress">{{ user.progress }}%</div>
+        </td>
+        <button   style="background-color: #2929d0; padding: 3px;" type="submit" class="btn btn-success">more</button>
+    </tr>
+   
+</tbody>
+</table>

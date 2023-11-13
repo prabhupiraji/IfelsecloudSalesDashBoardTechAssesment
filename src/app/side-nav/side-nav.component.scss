@@ -1,0 +1,31 @@
+.nav-items {
+    padding-top: 40px;
+    // padding-left: 8px;
+    .nav-item {
+      padding: 25px 50px;
+      
+      cursor: pointer;
+      @media only screen and (max-width: 130px) {
+        padding: 5px 5px;
+      }
+      .combined-icons {
+        display: inline-flex;
+        align-items: center;
+        // padding-left: 10px;
+      }
+      &:hover {
+        background-color: rgb(1, 38, 69);
+      }
+      fa-icon {
+        margin-right: 25px;
+        font-size: 20px;
+      }
+      span {
+        display: inline;
+        @media only screen and (max-width: 1300px) {
+          display: none;
+        }
+      }
+
+    }
+  }

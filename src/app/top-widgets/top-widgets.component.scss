@@ -1,0 +1,102 @@
+.widget-container {
+  display: flex;
+  align-items: space-between;
+
+  .widget {
+    width: 325px;
+    height: 150px;
+    background-color: #fff;
+    color: blue;
+    border-radius: 5px;
+    margin: 18px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px #939393;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+    &.green {
+      background-color: rgb(4, 67, 66);
+    }
+
+    &.yellow {
+      background-color: rgb(237, 158, 32);
+    }
+
+    &.red {
+      background-color: rgb(126, 5, 5);
+    }
+
+    &.blue {
+      background-color: rgb(63, 129, 221);
+      color: white;
+      
+      // text-decoration: ;
+    }
+
+    @media only screen and (max-width: 1600px) {
+      width: 300px;
+    }
+
+    @media only screen and (max-width: 1500px) {
+      width: 275px;
+    }
+
+    @media only screen and (max-width: 1400px) {
+      width: 250px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      width: 225px;
+    }
+
+    .download-icon {
+      color: rgb(35, 33, 33);
+      /* Set the color as needed */
+      font-size: 2rem;
+      /* Set the font size as needed */
+    }
+
+
+    .icon {
+      width: 100px;
+      font-size: 60px;
+      text-align: center;
+      color: rgb(158, 154, 154);
+
+      @media only screen and (max-width: 1200px) {
+        font-size: 45px;
+      }
+    }
+
+    .value {
+      text-align: center;
+      width: 175px;
+     .top1{
+      font-size: 30px;
+      
+        @media only screen and (max-width: 1200px) {
+          font-size: 26px;
+          color: white;
+        }
+     }
+      .top {
+        font-size: 30px;
+
+        @media only screen and (max-width: 1200px) {
+          font-size: 26px;
+        }
+      }
+
+      .bottom {
+        font-size: 20px;
+        color: black;
+        margin-top: 10px;
+
+        @media only screen and (max-width: 1200px) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
