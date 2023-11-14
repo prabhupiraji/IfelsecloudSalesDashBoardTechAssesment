@@ -1,5 +1,3 @@
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](C:\Users\prabh\Pictures\Screenshots\Screenshot dashboard1.png)
-
 
 # Salesdashboardproject
 
@@ -28,5 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-![Screenshot dashboard1](https://github.com/prabhupiraji/IfelsecloudSalesDashBoardTechAssesment/assets/100748213/07338751-51e5-4d19-8352-0af6dcd70759)
-![Screenshot dashboard2](https://github.com/prabhupiraji/IfelsecloudSalesDashBoardTechAssesment/assets/100748213/155b0148-fd57-4bb3-98bc-a7197e2d18f3)
+
+![Screenshot dashboard2](https://github.com/prabhupiraji/IfelsecloudSalesDashBoardTechAssesment/assets/100748213/1c4ae0d6-92f4-4c64-ace2-0dccc89d3156)
+![Screenshot dashboard1](https://github.com/prabhupiraji/IfelsecloudSalesDashBoardTechAssesment/assets/100748213/a061e0a7-90f4-4b38-8902-292359f425f5)
+
