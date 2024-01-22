@@ -33,7 +33,15 @@ public class RecentOrderController {
 	  return orderService.getAllOrders();
 		
 	}
-  //dummycode git pull checking
+  //dummycode git pull checking  new changes in remote to local repo
+	@DeleteMapping
+	public deleteAllOrders(){
+	  return orderService.deleteAllOrders();
+		
+	}
+
+
+ //dummycode  for git push checking from local to remote repo
 	@DeleteMapping
 	public deleteAllOrders(){
 	  return orderService.deleteAllOrders();
