@@ -33,6 +33,10 @@ public class RecentOrderController {
 	  return orderService.getAllOrders();
 		
 	}
-	
-	
+  //dummycode git pull checking
+	@DeleteMapping
+	public deleteAllOrders(){
+	  return orderService.deleteAllOrders();
+		
+	}
 }
